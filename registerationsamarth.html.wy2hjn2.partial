@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body style="background:url(css/bg1.jpg);">
+
+<div style="font-family:Geneva, Arial, Helvetica, sans-serif; color:#005b7a; font-size:36px;font-weight:bold;">CHAT BOX</div><br>
+<hr style="margin-top:-20px;">
+
+
+<div align="justify">
+<p style="color:#0089b7; font-family:Arial, Helvetica, sans-serif; font-size:30px">REGISTRATION FORM</p>
+<form name="registration" action="" method="post">
+<input type="text" name="username" placeholder="Username" required /><br><br />
+<input type="text" name="fname" placeholder="first name" required /><br><br />
+
+<input type="text" name="fname" placeholder="last name" required /><br><br />
+<input type="email" name="email" placeholder="Email" required /><br><br />
+Select branch: &nbsp;<select><option >cse</option><option>ce</option></select><br /><br />
+<input type="radio" name="gender"  />male <input type="radio" name="gender"/>female<br /><br />
+<input type="password" name="password" placeholder="Password" required /><br><br />
+<input type="submit" name="submit" value="Register" />
+
+<p>Already Registered? <a href='loginsamarth.html'>Login Here</a></p>
+</form>
+</div>
+</body>
+</html>
